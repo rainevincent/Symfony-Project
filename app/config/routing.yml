@@ -1,0 +1,7 @@
+wc_platform:
+    resource: "@WCPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
