@@ -1,0 +1,5 @@
+# src/WC/PlatformBundle/Resources/config/routing.yml
+
+wc_platform_homepage:
+    path:     /hello-world
+    defaults: { _controller: WCPlatformBundle:Advert:index }
